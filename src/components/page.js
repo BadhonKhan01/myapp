@@ -16,7 +16,7 @@ const Page = (props) => {
 	useEffect(() => {
 	    dispatch(getAllUsers())
 
-	}, [])
+	}, [dispatch])
 
     return (
         <React.Fragment>
